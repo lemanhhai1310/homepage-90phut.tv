@@ -1,0 +1,22 @@
+.uk-pagination{
+  li{
+    &.uk-active{
+      span{
+        background-color: #f5f5f5;
+      }
+    }
+    a{
+
+    }
+    a,span{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 4px;
+      background-color: #222222;
+      font-family:'Roboto Medium';
+    }
+  }
+}
