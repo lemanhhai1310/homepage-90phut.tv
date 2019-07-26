@@ -3,7 +3,7 @@
 <?php include "header.php"; ?>
 <?php include "block-4.php"; ?>
 <?php include "block-ads.php"; ?>
-<div class="tv-block-2">
+<div class="tv-block-2 uk-padding-remove">
     <div class="uk-container uk-margin tv-container1">
         <div class="uk-margin">
             <div class="uk-grid-collapse box4 uk-grid tv-boxx" uk-grid="" uk-alert="">
@@ -24,14 +24,15 @@
             </div>
         </div>
     </div>
-    <div class="uk-container uk-section-xsmall">
-        <h2 class="tran-title uk-text-uppercase uk-text-center uk-margin">tài khoản</h2>
+    <div class="uk-container tv-container1 uk-section-xsmall">
+        <h2 class="tran-title uk-text-uppercase uk-text-center uk-margin-medium uk-margin-top">tài khoản</h2>
         <div class="grid-acc-1" uk-grid>
             <div class="uk-width-1-4@m">
 
             </div>
             <div class="uk-width-expand">
-
+                <?php include "infoacc-right.php"; ?>
+                <?php include "coinacc-right.php"; ?>
             </div>
         </div>
     </div>
